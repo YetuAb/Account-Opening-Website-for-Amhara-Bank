@@ -1,0 +1,102 @@
+body {
+    background:#ffffff;
+    overflow: visible;
+    color: #025aa2;
+}
+.form{
+    left: 32%;
+    top: 27%;
+    position: absolute;
+    display: block;
+    align-items: center;
+    overflow: visible;
+    max-width: 500px;
+    max-height: 350px;
+    height: 100%;
+    width: 50%;
+    border: 2px #ffce03;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 8px 8px 10px 16px rgba(233, 206, 0, 0.167);
+}
+.form1{
+    margin-top: 5;
+    display: block;
+    align-items: center;
+    overflow: visible;
+    max-width: 500px;
+    max-height: 500px;
+    height: 100%;
+    width: 50%;
+    border: 2px #ffce03;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 8px 8px 10px 16px rgba(233, 206, 0, 0.167);
+}
+h1{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: #025aa2;
+}
+
+label{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display:inline;
+    color: #025aa2;
+}
+input, textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 7px 0;
+    border: 1px solid #ffce03;
+    box-sizing: border-box;
+    background-color: #faefc4;
+    display: block;
+}
+button{
+    background: #025aa2;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    color: #ffce03;
+    border: 1px;
+    cursor: pointer;
+    max-width: 190px;
+    max-height: 96px;
+    height: 50%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 1px 1px 2px 4px rgba(130, 144, 41, 0.1);
+}
+.form a{
+    color: #025aa2;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px 0;
+}
+.form a.login{
+    justify-content: center;
+    color: #ffce03;
+    text-decoration: none;
+}
+.form a.login:hover{
+    background-color: #ffce03;
+    color: #025aa2;
+}
+button:hover{
+    background-color: #ffce03;
+    color: #025aa2;
+}
+.copyright{
+    margin-right: 0%;
+}

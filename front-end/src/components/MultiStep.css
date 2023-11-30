@@ -1,0 +1,14 @@
+.account{
+    display: flex;
+    justify-content: center;
+  }
+  .accountType{
+    max-width: 500px;
+    width: 100%;
+    color: #025AA5
+  }
+  .accountTable{
+    width: 600px;
+    height: 400px;
+    color: #025AA5
+  }

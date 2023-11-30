@@ -1,0 +1,17 @@
+div.Footer > img {
+    background-color: #ffce03;
+    overflow:hidden;
+    position:absolute ;
+    display: flex;
+    justify-content: flex-start;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    
+  }
+  .bottomNav{
+    background-image: url(./images/Footer.png);
+    background-color: #ffce03;
+    background-size: cover;
+  }
